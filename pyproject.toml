@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django_community_playground"
+version = "1.0.0"
+authors = [
+  { name="Tim Schilling", email="schillingt@better-simple.com" },
+]
+description = "A place to test things out"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "django",
+    "django community",
+]
+
+[project.urls]
+Homepage = "https://github.com/django-community/django-community-playground"
+Issues = "https://github.com/django-community/django-community-playground/issues"
