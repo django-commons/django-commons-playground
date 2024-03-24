@@ -2,6 +2,11 @@ name: Publish Python 🐍 distribution 📦 to PyPI and TestPyPI
 
 on: push
 
+env:
+  # Change these for your project's URLs
+  PYPI_URL: https://pypi.org/p/django-community-playground
+  PYPI_TEST_URL: https://test.pypi.org/p/django-community-playground
+
 jobs:
 
   build:
@@ -34,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/django-community-playground
+      url: ${{ env.PYPI_URL }}
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
     steps:
@@ -97,7 +102,7 @@ jobs:
 
     environment:
       name: testpypi
-      url: https://test.pypi.org/p/django-community-playground
+      url: ${{ env.PYPI_TEST_URL }}
 
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
