@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "django_community_playground"
+name = "django_commons_playground"
 version = "1.0.1"
 authors = [
   { name="Tim Schilling", email="schillingt@better-simple.com" },
@@ -18,9 +18,9 @@ classifiers = [
 ]
 keywords = [
     "django",
-    "django community",
+    "django commons",
 ]
 
 [project.urls]
-Homepage = "https://github.com/django-community/django-community-playground"
-Issues = "https://github.com/django-community/django-community-playground/issues"
+Homepage = "https://github.com/django-commons/django-commons-playground"
+Issues = "https://github.com/django-commons/django-commons-playground/issues"

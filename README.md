@@ -1,4 +1,4 @@
-# django-community-playground
+# django-commons-playground
 A sample project to test things out
 
 
