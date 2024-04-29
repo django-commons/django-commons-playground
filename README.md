@@ -1,17 +1,6 @@
-# django-commons-playground
-A sample project to test things out
+# Django Commons example repository
 
+This is an example repository for Django Commons. Some relevant areas to review are:
 
-## Running tests
-
-```shell
-python -m unittest
-```
-
-## Manually building and uploading
-
-```shell
-python3 -m pip install -U twine build
-python3 -m build
-python3 -m twine upload --repository testpypi dist/*
-```
+- GitHub action ([release.yml](https://github.com/django-commons/django-commons-playground/blob/main/.github/workflows/release.yml)) for releasing to PyPI
+- [Documentation](docs/README.md)
