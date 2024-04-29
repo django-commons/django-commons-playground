@@ -7,7 +7,7 @@ and organized docs are the best docs.
 
 ## Table of Contents
 
-- Installation
-- Getting Started
-- Contributing
-- [Code of Conduct](https://github.com/django-commons/django-commons-playground/blob/main/CODE_OF_CONDUCT.md)
+- [Installation](installation.md)
+- [Getting Started](getting_started.md)
+- [Contributing](contributing.md)
+- [Code of Conduct](../CODE_OF_CONDUCT.md)
